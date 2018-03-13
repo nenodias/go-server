@@ -15,7 +15,7 @@ func main() {
 		if nome == ""{
 			nome = "Mundo"
 		}
-		return c.String(http.StatusOK, "Olá " + nome + " seje bem-vindo")
+		return c.String(http.StatusOK, "Olá " + nome + " seja bem-vindo")
 	})
 	e.Logger.Fatal(e.Start(":3001"))
 }
